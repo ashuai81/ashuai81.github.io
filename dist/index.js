@@ -10691,7 +10691,7 @@
                     },
                     pos: [0, 0],
                     logoTheme: u,
-                    link: "https://www.douban.com/people/ovilia1024/"
+                    link: "https://www.douban.com/"
                 },
                 bilibili: {
                     name: {
@@ -10700,7 +10700,7 @@
                     },
                     pos: [1, 0],
                     logoTheme: c,
-                    link: "https://space.bilibili.com/369508085/#/"
+                    link: "https://www.bilibili.com/"
                 },
                 dribbble: {
                     name: {
@@ -10753,7 +10753,7 @@
                     },
                     pos: [3, 1],
                     logoTheme: l,
-                    link: "https://www.zhihu.com/people/ovilia"
+                    link: "https://www.zhihu.com/"
                 },
                 github: {
                     name: {
@@ -10781,7 +10781,7 @@
                     pos: [1, 2],
                     logoTheme: u,
                     appStatusTheme: l,
-                    link: "mailto:me@zhangwenli.com"
+                    link: "mailto:276469464@qq.com"
                 },
                 music: {
                     name: {
@@ -11820,14 +11820,16 @@
                         zh: "社交网络账号",
                         en: "Social Networks"
                     },
-                    apps: ["github", "dribbble", "weibo", "douban", "zhihu", "bilibili"]
-                }, {
-                    title: {
-                        zh: "旧版个人网站",
-                        en: "Old Versions"
-                    },
-                    apps: ["2014", "2015", "2016", "2017"]
-                }]
+                    apps: ["github", "weibo", "douban", "zhihu", "bilibili"]
+                },
+                //     {
+                //     title: {
+                //         zh: "旧版个人网站",
+                //         en: "Old Versions"
+                //     },
+                //     apps: ["2014", "2015", "2016", "2017"]
+                // }
+                ]
             }, {
                 id: 2,
                 groups: [{
@@ -11835,7 +11837,8 @@
                         zh: "其他",
                         en: "Others"
                     },
-                    apps: ["blog", "email", "comment"]
+                    // apps: ["blog", "email", "comment"]
+                    apps: ["email"]
                 }]
             }]);
         var Z = .3,
